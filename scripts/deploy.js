@@ -13,13 +13,13 @@ async function main() {
   // manually to make sure everything is compiled
   // await hre.run('compile');
 
-  const Counter = await hre.ethers.getContractFactory("Counter");
-  const deployed = await Counter.deploy();
+  const MyNFT = await hre.ethers.getContractFactory("MyNFT");
+  const myNFT = await MyNFT.deploy();
 
-  await deployed.deployed();
+  await myNFT.deployed();
 
-  console.log("Contract deployed to:", deployed.address);
-  storeContractData(deployed)
+  console.log("MyNFT deployed to:", myNFT.address);
+  storeContractData(myNFT);
 }
 
 function storeContractData(contract) {
@@ -31,15 +31,15 @@ function storeContractData(contract) {
   }
 
   fs.writeFileSync(
-    contractsDir + "/CounterAddress.json",
-    JSON.stringify({ Counter: contract.address }, undefined, 2)
+    contractsDir + "/MyNFT-address.json",
+    JSON.stringify({ MyNFT: contract.address }, undefined, 2)
   );
 
-  const CounterArtifact = artifacts.readArtifactSync("Counter");
+  const MyNFTArtifact = artifacts.readArtifactSync("MyNFT");
 
   fs.writeFileSync(
-    contractsDir + "/Counter.json",
-    JSON.stringify(CounterArtifact, null, 2)
+    contractsDir + "/MyNFT.json",
+    JSON.stringify(MyNFTArtifact, null, 2)
   );
 }
 
