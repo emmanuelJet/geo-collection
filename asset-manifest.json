@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/geo-collection/static/css/main.d87cbb72.chunk.css",
+    "main.js": "/geo-collection/static/js/main.68346858.chunk.js",
+    "main.js.map": "/geo-collection/static/js/main.68346858.chunk.js.map",
+    "runtime-main.js": "/geo-collection/static/js/runtime-main.797cf19e.js",
+    "runtime-main.js.map": "/geo-collection/static/js/runtime-main.797cf19e.js.map",
+    "static/css/2.96a3c51c.chunk.css": "/geo-collection/static/css/2.96a3c51c.chunk.css",
+    "static/js/2.54b92776.chunk.js": "/geo-collection/static/js/2.54b92776.chunk.js",
+    "static/js/2.54b92776.chunk.js.map": "/geo-collection/static/js/2.54b92776.chunk.js.map",
+    "static/js/3.a4a1fd6d.chunk.js": "/geo-collection/static/js/3.a4a1fd6d.chunk.js",
+    "static/js/3.a4a1fd6d.chunk.js.map": "/geo-collection/static/js/3.a4a1fd6d.chunk.js.map",
+    "index.html": "/geo-collection/index.html",
+    "static/css/2.96a3c51c.chunk.css.map": "/geo-collection/static/css/2.96a3c51c.chunk.css.map",
+    "static/css/main.d87cbb72.chunk.css.map": "/geo-collection/static/css/main.d87cbb72.chunk.css.map",
+    "static/js/2.54b92776.chunk.js.LICENSE.txt": "/geo-collection/static/js/2.54b92776.chunk.js.LICENSE.txt",
+    "static/media/bootstrap-icons.css": "/geo-collection/static/media/bootstrap-icons.c1d7432e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.797cf19e.js",
+    "static/css/2.96a3c51c.chunk.css",
+    "static/js/2.54b92776.chunk.js",
+    "static/css/main.d87cbb72.chunk.css",
+    "static/js/main.68346858.chunk.js"
+  ]
+}
